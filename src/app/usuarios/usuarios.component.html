@@ -1,0 +1,16 @@
+<h1>USUARIOS COMPONENT</h1>
+<h1>{{title}}</h1>
+
+<div *ngFor="let usuario of listaUsuarios">
+    <h2>{{ usuario.nombre }} {{ usuario.apellido }}</h2>
+    <h3>{{ usuario.edad  }}</h3>
+</div>
+
+<div>
+    <input type="text" placeholder="nombre" [(ngModel)]="nuevoUsuario.nombre">
+    <input type="text" placeholder="apellido" [(ngModel)]="nuevoUsuario.apellido">
+    <input type="text" placeholder="edad" [(ngModel)]="nuevoUsuario.edad">
+    <input type="text" placeholder="id" [(ngModel)]="nuevoUsuario.id">
+
+    <button (click)="crearUsuarioNuevo()" type="submit">Crear usuario</button>
+</div>
