@@ -6,11 +6,13 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { FormsModule } from '@angular/forms';
 import { UsuariosComponent } from './usuarios/usuarios.component';
+import { StarshipsComponent } from './starships/starships.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    UsuariosComponent
+    UsuariosComponent,
+    StarshipsComponent
     
   ],
   imports: [
