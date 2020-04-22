@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>/Film/ "title" | StarWars</title>
+	<!-- UIkit CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.4.1/dist/css/uikit.min.css"/>
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <!-- UIkit JS -->
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.4.1/dist/js/uikit.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.4.1/dist/js/uikit-icons.min.js"></script>
+</head>
+<body>
+    <header>
+        <div class="uk-container">
+    	        <div uk-grid>
+    		        <div class="uk-width-auto@m">
+    			        <nav class="uk-navbar">
+                             <div class="uk-navbar-left">
+                                 <a class="uk-navbar-toggle" uk-navbar-toggle-icon href="#"></a>
+                             </div>
+                         </nav>
+    		        </div>   
+    		        <div class="uk-width-1-2">
+    			        <img src="images/logo.png" width="20%" alt="Logo StarWars">
+    		        </div>  
+    		       <div class="uk-width-auto@m">
+                        <div class="uk-margin">
+                            <div uk-form-custom="target: > * > span:first-child">
+                                <select>
+                                    <option disabled>Buscar por</option>
+                                    <option value="año">Año</option>
+                                    <option value="pelicula">Película</option>
+                                </select>
+                                <button class="uk-button uk-button-default" type="button" tabindex="-1">
+                                    <span></span>
+                                    <span uk-icon="icon: chevron-down"></span>
+                                </button>
+                            </div>
+                        </div>
+    		       </div>
+    		        <div class="uk-width-auto@m">
+    		            <div class="uk-search uk-search-default">
+    		                <span uk-search-icon></span>
+    		    	        <input class="uk-search-input" type="search" placeholder="Buscar película">
+    		    	     </div>
+    		        </div>
+    		    </div>    
+        </div>
+    </header> 
+
+    <div class="uk-container">
+    	<div class="uk-height-medium uk-flex uk-flex-center uk-flex-middle uk-background-cover uk-light" data-src="images/solo-a-star-wars-story-theatrical-poster-2_f4af9297.jpeg" uk-img>
+          <h1>/films/ "title"</h1>
+        </div> 
+    </div>
+
+    <div class="uk-container uk-margin-large-top">
+    	<div uk-grid>
+            <div class="uk-width-1-4">
+                <img src="images/alazmec-main_f74a4955.jpeg">
+                <div class="uk-card uk-card-hover uk-card-body">
+                	<ul class="uk-list">
+                		<li>"title: "</li>
+                		<li>"episode_id: "</li>
+                		<li>"director: "</li>
+                		<li>"producer: "</li>
+                		<li>"release_date: "</li>
+                		<li>"species: "</li>
+                		<li>"starships: "</li>
+                		<li>"vehicles: "</li>
+                		<li>"characters: "</li>
+                		<li>"planets: "</li>
+                		<li>"url: "</li>
+                		<li>"creater: "</li>
+                	</ul>
+                </div>
+            </div>
+            <div class="uk-width-3-4">
+                <div class="uk-card uk-card-hover uk-card-body">
+                	<h1 class="uk-heading-bullet">"opening_crawl"</h1>
+                	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque in dui finibus risus ornare auctor. Maecenas posuere rutrum dolor, blandit dapibus dolor viverra non. Pellentesque pretium velit non nisi mattis consequat. Suspendisse sagittis lorem velit, id varius tellus varius egestas. Nunc scelerisque et lacus in consectetur. Sed diam sapien, ornare sed mollis in, porta quis erat. Etiam in placerat augue. Sed vitae magna aliquam, dignissim metus nec, dignissim nulla. Integer ultricies odio ut sapien sagittis scelerisque. Morbi iaculis ullamcorper eros, eu interdum leo pulvinar eget. Ut facilisis tempus enim, non maximus odio suscipit ut. Suspendisse ex nulla, gravida ut efficitur a, luctus ut mauris. Morbi ut ultricies magna, sit amet sodales dolor. Duis nunc arcu, condimentum eget lorem vel, pellentesque sodales nulla.</p>
+                	<iframe width="560" height="315" src="https://www.starwars.com/embed/5a2191d8dc1f3ebd6b4f2a72" width="1920" height="1080" frameborder="0" allowfullscreen uk-responsive></iframe>
+                </div>
+            </div>
+        </div>
+    </div>	
+
+
+    
+    <footer>
+        <div class="uk-margin-large-top uk-background-muted uk-padding uk-panel">
+    	    <p class="uk-text-center uk-text-meta">Copyright © 2020 | Trabajo colaborativo frontend, grupo 1</p>
+    	</div>
+    </footer>
+</body>
+</html>
