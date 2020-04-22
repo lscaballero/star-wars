@@ -14,9 +14,10 @@ import { PeopleInternalComponent } from './people/people-internal/people-interna
 import { MainMenuComponent } from './main-menu/main-menu.component';
 import { FooterComponent } from './footer/footer.component';
 
+
 @NgModule({
   declarations: [
-    AppComponent,
+  AppComponent,
     UsuariosComponent,
     StarshipsComponent,
     HomeComponent,
