@@ -7,12 +7,14 @@ import { AppComponent } from './app.component';
 import { FormsModule } from '@angular/forms';
 import { UsuariosComponent } from './usuarios/usuarios.component';
 import { StarshipsComponent } from './starships/starships.component';
+import { PeopleComponent} from './people/people.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     UsuariosComponent,
-    StarshipsComponent
+    StarshipsComponent,
+    PeopleInternalComponent
     
   ],
   imports: [
