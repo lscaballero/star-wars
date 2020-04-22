@@ -11,6 +11,8 @@ import { StarshipsComponent } from './starships/starships.component';
 import { HomeComponent } from './home/home.component';
 import { PeopleComponent } from './people/people.component';
 import { PeopleInternalComponent } from './people/people-internal/people-internal.component';
+import { MainMenuComponent } from './main-menu/main-menu.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +21,9 @@ import { PeopleInternalComponent } from './people/people-internal/people-interna
     StarshipsComponent,
     HomeComponent,
     PeopleComponent,
-    PeopleInternalComponent
+    PeopleInternalComponent,
+    MainMenuComponent,
+    FooterComponent
     
   ],
   imports: [
