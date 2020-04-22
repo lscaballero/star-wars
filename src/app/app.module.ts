@@ -12,9 +12,10 @@ import { HomeComponent } from './home/home.component';
 import { PeopleComponent } from './people/people.component';
 import { PeopleInternalComponent } from './people/people-internal/people-internal.component';
 
+
 @NgModule({
   declarations: [
-    AppComponent,
+  AppComponent,
     UsuariosComponent,
     StarshipsComponent,
     HomeComponent,
