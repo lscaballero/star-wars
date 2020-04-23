@@ -12,9 +12,20 @@ export class MainMenuComponent implements OnInit {
 
   ngOnInit(): void {
   }
-
+//ruta al componente personas
   rutaPeople(){
     this.router.navigate(['/people']);
   }
+//ruta en componente naves
+  rutaStarships(){
+    this.router.navigate(['/starships']);
+  }
+
+  rutaVehicles(){
+    this.router.navigate(['/vehicles']);
+  }
+  
+
+
 
 }
