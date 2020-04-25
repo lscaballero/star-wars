@@ -16,16 +16,19 @@ export class MainMenuComponent implements OnInit {
   rutaPeople(){
     this.router.navigate(['/people']);
   }
-//ruta en componente naves
+//ruta al componente naves
   rutaStarships(){
     this.router.navigate(['/starships']);
   }
-
+//ruta al comoponente vehilces
   rutaVehicles(){
     this.router.navigate(['/vehicles']);
   }
-  
 
+//ruta al componente films
+rutaFilms(){
+  this.router.navigate(['/films']);
+}
 
 
 }
