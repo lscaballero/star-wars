@@ -10,13 +10,19 @@ export class PeliculasService {
 
   constructor(private http: HttpClient) { }
 
-  getPelicula(){
-    const pelicula = {title: "pelicula uno", episode_id : 1, director: "El director"};
+  getPelicula() {
+    const pelicula = { title: "pelicula uno", episode_id: 1, director: "El director" };
     return pelicula;
   }
 
-  getAllFilms(){
-    const path = this.api+'films/';
-    return this.http.get (path);
+  getAllFilms() {
+    const path = this.api + 'films/';
+    return this.http.get(path);
   }
+
+  getAllPeople() {
+    const path = this.api + 'people/';
+    return this.http.get(path);
+  }
+
 }
