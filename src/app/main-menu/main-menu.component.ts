@@ -16,18 +16,6 @@ export class MainMenuComponent implements OnInit {
   rutaPeople(){
     this.router.navigate(['/people']);
   }
-<<<<<<< HEAD
-//ruta en componente naves
-  rutaStarships(){
-    this.router.navigate(['/starships']);
-  }
-
-  rutaVehicles(){
-    this.router.navigate(['/vehicles']);
-  }
-  
-
-=======
 //ruta al componente naves
   rutaStarships(){
     this.router.navigate(['/starships']);
@@ -41,7 +29,6 @@ export class MainMenuComponent implements OnInit {
 rutaFilms(){
   this.router.navigate(['/films']);
 }
->>>>>>> 382516f40efa6edc58687a0a203c7d9b2cfee322
 
 
 }
