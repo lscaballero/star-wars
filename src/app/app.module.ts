@@ -14,7 +14,7 @@ import { PeopleInternalComponent } from './people/people-internal/people-interna
 import { MainMenuComponent } from './main-menu/main-menu.component';
 import { FooterComponent } from './footer/footer.component';
 import { PeliculasService } from './services/peliculas.service';
-import { TaskExampleComponent } from './task-example/task-example.component';
+/*import { TaskExampleComponent } from './task-example/task-example.component';*/
 import { FilmsComponent } from './films/films.component';
 
 
@@ -28,8 +28,8 @@ import { FilmsComponent } from './films/films.component';
     PeopleInternalComponent,
     MainMenuComponent,
     FooterComponent,
-    FilmsComponent,
-    TaskExampleComponent
+    FilmsComponent
+    /*TaskExampleComponent*/
   ],
   imports: [
     BrowserModule,
