@@ -13,6 +13,9 @@ import { PeopleComponent } from './people/people.component';
 import { PeopleInternalComponent } from './people/people-internal/people-internal.component';
 import { MainMenuComponent } from './main-menu/main-menu.component';
 import { FooterComponent } from './footer/footer.component';
+import { PeliculasService } from './services/peliculas.service';
+import { TaskExampleComponent } from './task-example/task-example.component';
+import { FilmsComponent } from './films/films.component';
 
 
 @NgModule({
@@ -24,8 +27,9 @@ import { FooterComponent } from './footer/footer.component';
     PeopleComponent,
     PeopleInternalComponent,
     MainMenuComponent,
-    FooterComponent
-    
+    FooterComponent,
+    FilmsComponent,
+    TaskExampleComponent
   ],
   imports: [
     BrowserModule,
@@ -33,7 +37,7 @@ import { FooterComponent } from './footer/footer.component';
     FormsModule,
     HttpClientModule
   ],
-  providers: [],
+  providers: [PeliculasService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
