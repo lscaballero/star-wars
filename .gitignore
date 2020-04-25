@@ -43,14 +43,12 @@ testem.log
 
 
 #Directories
-src/app/films/
-src/app/home/
+src/app/task-example/
 
 
 # System Files
 .DS_Store
 Thumbs.db
 
-#Git
-.gitignore
+e
 
