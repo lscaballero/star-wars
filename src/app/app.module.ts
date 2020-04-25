@@ -8,6 +8,7 @@ import { AppComponent } from './app.component';
 import { FormsModule } from '@angular/forms';
 import { UsuariosComponent } from './usuarios/usuarios.component';
 import { StarshipsComponent } from './starships/starships.component';
+import { VehiclesComponent } from './vehicles/vehicles.component';
 import { HomeComponent } from './home/home.component';
 import { PeopleComponent } from './people/people.component';
 import { PeopleInternalComponent } from './people/people-internal/people-internal.component';
@@ -20,6 +21,7 @@ import { FooterComponent } from './footer/footer.component';
   AppComponent,
     UsuariosComponent,
     StarshipsComponent,
+    vehiclesComponent,
     HomeComponent,
     PeopleComponent,
     PeopleInternalComponent,
