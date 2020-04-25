@@ -7,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class VehiclesComponent implements OnInit {
 
+  logo2:string="assets/logo2.png";
+
   constructor() { }
 
   ngOnInit(): void {

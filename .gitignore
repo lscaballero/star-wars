@@ -41,6 +41,16 @@ yarn-error.log
 testem.log
 /typings
 
+
+#Directories
+src/app/films/
+src/app/home/
+
+
 # System Files
 .DS_Store
 Thumbs.db
+
+#Git
+.gitignore
+

@@ -1,0 +1,25 @@
+.slider-people-internal img{
+    width: 100% !important;
+    height: 450px !important;
+}
+.slider-people-internal ul{
+    min-height: 450px !important;
+}
+.profile-picture{
+    width: 30%;
+    position: relative;
+    bottom: 150px;
+}
+.section-people-internal-content{
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row wrap;
+    width: 100%;
+}
+
+.section-people-internal-content aside{
+    width: 33%;
+}
+.section-people-internal-content .container-people-galery-internal{
+    width: 66%;
+}

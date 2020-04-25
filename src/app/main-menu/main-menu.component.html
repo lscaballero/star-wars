@@ -1,0 +1,42 @@
+<header>
+    <div class="uk-container">
+            <div uk-grid>
+                <div class="uk-width-auto@m">
+                    <nav class="uk-navbar">
+                         <div class="uk-navbar-left">
+                             <a class="uk-navbar-toggle"  href="#">Peliculas</a>
+                             <a (click)="rutaPeople()" class="uk-navbar-toggle">Personajes</a>
+                             <a class="uk-navbar-toggle"  href="#">Planetas</a>
+                             <a class="uk-navbar-toggle"  href="#">Especies</a>
+                             <a (clic) = "rutaVehicles()"class="uk-navbar-toggle"  >Vehiculos</a>
+                             <a (click) = "rutaStarships()" class="uk-navbar-toggle">Naves</a>
+                         </div>
+                     </nav>
+                </div>   
+                <div class="uk-width-1-2">
+                    <img src="images/logo.png" width="20%" alt="Logo StarWars">
+                </div>  
+               <div class="uk-width-auto@m">
+                    <div class="uk-margin">
+                        <div uk-form-custom="target: > * > span:first-child">
+                            <select>
+                                <option disabled>Buscar por</option>
+                                <option value="año">Año</option>
+                                <option value="pelicula">Película</option>
+                            </select>
+                            <button class="uk-button uk-button-default" type="button" tabindex="-1">
+                                <span></span>
+                                <span uk-icon="icon: chevron-down"></span>
+                            </button>
+                        </div>
+                    </div>
+               </div>
+                <div class="uk-width-auto@m">
+                    <div class="uk-search uk-search-default">
+                        <span uk-search-icon></span>
+                        <input class="uk-search-input" type="search" placeholder="Buscar película">
+                     </div>
+                </div>
+            </div>    
+    </div>
+</header> 

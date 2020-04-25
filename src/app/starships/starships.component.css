@@ -1,0 +1,20 @@
+.slider-starships img{
+    width: 100% !important;
+    height: 450px !important;
+}
+
+.section-starships .alphabet-list{
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row nowrap;
+    margin: 0;
+    padding: 0;
+}
+
+.section-starships .alphabet-list li{
+    border: 0;
+}
+
+.container-starships-galery{
+    margin-top: 80px;
+}
