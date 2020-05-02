@@ -1,6 +1,14 @@
 .slider-people img{
     width: 100% !important;
-    height: 450px !important;
+    height: 400px !important;
+}
+
+.slider-people{
+    height: 400px;
+}
+
+.slideshow-li{
+    height: 400px;
 }
 
 .section-people .alphabet-list{
@@ -17,4 +25,15 @@
 
 .container-people-galery{
     margin-top: 80px;
+}
+
+.list-service{
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+}
+.list-items-service{
+    justify-content: space-around;
+    width: 50%;
+
 }
