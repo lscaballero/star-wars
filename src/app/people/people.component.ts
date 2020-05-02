@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { PeliculasService } from '../services/peliculas.service';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-people',
@@ -10,13 +11,13 @@ export class PeopleComponent implements OnInit {
 
   listPeople = [];
 
-  constructor(private people: PeliculasService) {
+  constructor(private people: PeliculasService, private router: Router) {
 
     this.listPeople = [];
     this.getListOfPeople();
 
    }
-
+//funcion para consumir el servicio
    getListOfPeople(){
 
     this.people.getAllPeople().subscribe(
@@ -29,5 +30,6 @@ export class PeopleComponent implements OnInit {
 
   ngOnInit(): void {
   }
+  
 
 }
