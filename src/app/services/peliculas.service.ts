@@ -25,4 +25,26 @@ export class PeliculasService {
     return this.http.get(path);
   }
 
+  getAllPlanets(){
+    const path = this.api + 'planets/';
+    return this.http.get(path);
+  }
+
+  getAllSpecies(){
+    const path = this.api + 'species/';
+    return this.http.get(path);
+  }
+
+  getAllStarships(){
+    const path = this.api + 'starships/';
+    return this.http.get(path);
+  }
+
+  getAllVehicles(){
+    const path = this.api + 'vehicles/';
+    return this.http.get(path);
+  }
+
+
+
 }
