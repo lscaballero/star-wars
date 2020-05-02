@@ -43,12 +43,22 @@ testem.log
 
 
 #Directories
+<<<<<<< HEAD
+src/app/films/
+src/app/home/
+=======
 src/app/task-example/
+>>>>>>> 382516f40efa6edc58687a0a203c7d9b2cfee322
 
 
 # System Files
 .DS_Store
 Thumbs.db
 
+<<<<<<< HEAD
+#Git
+.gitignore
+=======
 e
+>>>>>>> 382516f40efa6edc58687a0a203c7d9b2cfee322
 

@@ -13,15 +13,18 @@ import { PeopleComponent } from './people/people.component';
 import { PeopleInternalComponent } from './people/people-internal/people-internal.component';
 import { MainMenuComponent } from './main-menu/main-menu.component';
 import { FooterComponent } from './footer/footer.component';
+import { VehiclesComponent } from './vehicles/vehicles.component';
 import { PeliculasService } from './services/peliculas.service';
-/*import { TaskExampleComponent } from './task-example/task-example.component';*/
+/* import { TaskExampleComponent } from './task-example/task-example.component'; */
 import { FilmsComponent } from './films/films.component';
+
 
 
 @NgModule({
   declarations: [
   AppComponent,
     UsuariosComponent,
+    VehiclesComponent,
     StarshipsComponent,
     HomeComponent,
     PeopleComponent,
