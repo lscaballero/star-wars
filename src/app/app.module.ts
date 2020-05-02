@@ -32,8 +32,7 @@ import { FilmsComponent } from './films/films.component';
     MainMenuComponent,
     FooterComponent,
     FilmsComponent
-    /* TaskExampleComponent */
-
+    /*TaskExampleComponent*/
   ],
   imports: [
     BrowserModule,
