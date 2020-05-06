@@ -64,68 +64,77 @@
            <li uk-filter-control="[film='z']"><a href="#">Z</a></li>
         </ul>
 
-        <ul class="js-filter uk-child-width-1-2 uk-child-width-1-3@m uk-text-center" uk-grid>
-            <li film="a">
-                <div class="uk-card uk-card-default">
-                    <div class="uk-card-media-top">
-                        <img src="images/solo-a-star-wars-story-theatrical-poster-2_f4af9297.jpeg">
+        <div class="list-service">
+            <ul class="list-items-service" *ngFor="let film of listFilm" class="js-filter uk-child-width-1-2 uk-child-width-1-3@m uk-text-center" uk-grid>
+                <li *ngIf="film.episode_id == 4" film="a">
+                    <div class="uk-card uk-card-default">
+                        <div class="uk-card-media-top">
+                            <img src="images/solo-a-star-wars-story-theatrical-poster-2_f4af9297.jpeg">
+                        </div>
+                        <div class="uk-card-body">
+                            <h3 class="uk-card-title">{{film.title}}</h3>
+                        </div>
                     </div>
-                    <div class="uk-card-body">
-                        <h3 class="uk-card-title">/film/ "title"</h3>
+                </li>
+    
+                <li *ngIf="film.episode_id == 5" film="b">
+                    <div class="uk-card uk-card-default">
+                        <div class="uk-card-media-top">
+                            <img src="images/Star-Wars-Empire-Strikes-Back-V-Poster_878f7fce.jpeg">
+                        </div>
+                        <div class="uk-card-body">
+                            <h3 class="uk-card-title">{{film.title}}</h3>
+                        </div>
                     </div>
-                </div>
-            </li>
-            <li film="b">
-                <div class="uk-card uk-card-default">
-                    <div class="uk-card-media-top">
-                        <img src="images/Star-Wars-Empire-Strikes-Back-V-Poster_878f7fce.jpeg">
+                </li>
+                
+                <li *ngIf="film.episode_id == 6" film="c">
+                    <div class="uk-card uk-card-default">
+                        <div class="uk-card-media-top">
+                            <img src="images/Star-Wars-Return-Jedi-VI-Poster_a10501d2.jpeg">
+                        </div>
+                        <div class="uk-card-body">
+                            <h3 class="uk-card-title">{{film.title}}</h3>
+                        </div>
                     </div>
-                    <div class="uk-card-body">
-                        <h3 class="uk-card-title">/film/ "title"</h3>
+                </li>
+    
+                <li *ngIf="film.episode_id == 1" film="d">
+                    <div class="uk-card uk-card-default">
+                        <div class="uk-card-media-top">
+                            <img src="images/star-wars-the-rise-of-skywalker-theatrical-poster-1000_ebc74357.jpeg">
+                        </div>
+                        <div class="uk-card-body">
+                            <h3 class="uk-card-title">{{film.title}}</h3>
+                        </div>
                     </div>
-                </div>
-            </li>
-            <li film="c">
-                <div class="uk-card uk-card-default">
-                    <div class="uk-card-media-top">
-                        <img src="images/Star-Wars-Return-Jedi-VI-Poster_a10501d2.jpeg">
+                </li>
+    
+                <li *ngIf="film.episode_id == 2" film="e">
+                    <div class="uk-card uk-card-default">
+                        <div class="uk-card-media-top">
+                            <img src="images/the-last-jedi-theatrical-poster-tall-a_6a776211.jpeg">
+                        </div>
+                        <div class="uk-card-body">
+                            <h3 class="uk-card-title">{{film.title}}</h3>
+                        </div>
                     </div>
-                    <div class="uk-card-body">
-                        <h3 class="uk-card-title">/film/ "title"</h3>
+                </li>
+    
+                <li *ngIf="film.episode_id == 3" film="a">
+                    <div class="uk-card uk-card-default">
+                        <div class="uk-card-media-top">
+                            <img src="images/avco_payoff_1-sht_v7_lg_32e68793.jpeg">
+                        </div>
+                        <div class="uk-card-body">
+                            <h3 class="uk-card-title">{{film.title}}</h3>
+                        </div>
                     </div>
-                </div>
-            </li>
-            <li film="d">
-                <div class="uk-card uk-card-default">
-                    <div class="uk-card-media-top">
-                        <img src="images/star-wars-the-rise-of-skywalker-theatrical-poster-1000_ebc74357.jpeg">
-                    </div>
-                    <div class="uk-card-body">
-                        <h3 class="uk-card-title">/film/ "title"</h3>
-                    </div>
-                </div>
-            </li>
-            <li film="e">
-                <div class="uk-card uk-card-default">
-                    <div class="uk-card-media-top">
-                        <img src="images/the-last-jedi-theatrical-poster-tall-a_6a776211.jpeg">
-                    </div>
-                    <div class="uk-card-body">
-                        <h3 class="uk-card-title">/film/ "title"</h3>
-                    </div>
-                </div>
-            </li>
-            <li film="a">
-                <div class="uk-card uk-card-default">
-                    <div class="uk-card-media-top">
-                        <img src="images/avco_payoff_1-sht_v7_lg_32e68793.jpeg">
-                    </div>
-                    <div class="uk-card-body">
-                        <h3 class="uk-card-title">/film/ "title"</h3>
-                    </div>
-                </div>
-            </li>
-        </ul>
+                </li>
+                
+            </ul>
+        </div>
+        
     </div>    
 </div>
 <app-footer></app-footer>

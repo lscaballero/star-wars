@@ -1,3 +1,22 @@
 .uk-subnav > * {
 	padding-left: 0 !important;
 }
+
+.list-service{
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+}
+.list-items-service{
+    justify-content: space-around;
+    width: 33% !important;
+
+}
+.uk-text-center{
+	width: 33% !important;
+	justify-content: space-around;
+}
+
+.uk-card-default .uk-card-title{
+	width: 300px;
+}
