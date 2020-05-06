@@ -20,7 +20,7 @@ const routes: Routes = [
   /**
    * RUTAS COMPONENTES , VISTAS INTERNAS
    */
-  {path: 'people-internal:/character', component: PeopleInternalComponent},
+  {path: 'people/:name', component: PeopleInternalComponent},
 
    /**
     * RUTAS AL HOME
